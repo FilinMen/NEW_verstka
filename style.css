@@ -1,0 +1,146 @@
+@font-face {
+    font-family: "Raleway_bold";
+    font-weight: 400;
+    src: url(fonts/Raleway/Raleway-v4020-Bold.otf);
+}
+@font-face {
+    font-family: "Raleway";
+    font-weight: 400;
+    src: url(fonts/Raleway/Raleway.ttf);
+}
+body {
+    font-family: Raleway;
+    font-size: 15px;
+    color: #2C2D35;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.heder-for{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-right: 165px;
+    font-family: Raleway;
+    font-size: 23px;
+}
+.heder_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-left: 165px;
+}
+.heder_box{
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    height: 100px;
+    background-color: #E1EDE6;
+}
+.heder-star{
+    width: 35px;
+    height: 35px;
+}
+.heder-tx{
+    color: #598D66;
+    font-family: Raleway_bold;
+    font-size: 20px;
+}
+.main-info{
+    width: 1440px;
+    height: 620px;
+}
+.main-bird{
+    margin-left: 165px;
+}
+h1 {
+    font-size: 60px;
+    margin: 0;
+    line-height: 110%;
+    font-weight: 400;
+}
+.main_displ{
+    display: flex;
+}
+.main_box{
+    width: 540px;
+    height: 331px;
+    margin-top: 145px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+.main_butt{
+    width: 227px;
+    height: 65px;
+    color: #598D66;
+    background-color: #FFFFFF;
+    border-color: #598D66;
+    font-size: 20px;
+    margin-top: 60px;
+}
+.main_tx1{
+    color: #86928B;
+    font-size: 18px;
+    width: 540px;
+    height: 54px;
+    line-height: 150%;
+}
+.main_h{
+    width: 515px;
+    height: 132px;
+    margin-bottom: 20px;
+}
+.gr{
+    color: #598D66;
+}
+p {
+    margin: 0;
+}
+.main-item2{
+    width: 1110px;
+    height: 1564px;
+}
+.main-info2{
+    display: flex;
+    justify-content: space-between;
+}
+.main-info1{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+.fr{
+    width: 126px;
+    height: 43px;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gr1{
+    width: 135px;
+    height: 43px;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ag{
+    width: 108px;
+    height: 43px;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.marg{
+    margin-left: 145px;
+}
+.info2-tx{
+    font-size: 40px;
+}
