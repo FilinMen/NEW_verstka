@@ -1,0 +1,75 @@
+.content {
+  padding: 20px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+#toggle-france {
+  display: none;
+}
+#toggle-germany {
+  display: none;
+}
+#toggle-england {
+  display: none;
+}
+
+.first {
+  display: block;
+}
+.second {
+  display: none;
+}
+.third {
+  display: none;
+}
+
+#toggle:checked ~ .first {
+  display: none;
+}
+#toggle:checked ~ .second {
+  display: block;
+}
+#toggle:checked ~ .third {
+  display: none;
+}
+.first {
+  display: none;
+}
+.second {
+  display: block;
+}
+.third {
+  display: none;
+}
+
+#toggle:checked ~ .first {
+  display: none;
+}
+#toggle:checked ~ .second {
+  display: none;
+}
+#toggle:checked ~ .third {
+  display: block;
+}
+.first {
+  display: none;
+}
+.second {
+  display: none;
+}
+.third {
+  display: block;
+}
+#toggle:checked ~ .first {
+  display: block;
+}
+#toggle:checked ~ .second {
+  display: none;
+}
+#toggle:checked ~ .third {
+  display: none;
+}
+
+
