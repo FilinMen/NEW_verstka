@@ -8,11 +8,26 @@
     font-weight: 400;
     src: url(fonts/Raleway/Raleway.ttf);
 }
+.cross {
+    cursor: grab;
+}
 body {
     font-family: Raleway;
     font-size: 15px;
     color: #2C2D35;
 }
+.img1 {
+    transition: all 0.1s ease;
+}
+   
+.img1:hover {
+    width: 98%;
+    height: 98%;
+}
+button:hover {
+    background-color: rgb(50, 110, 0);
+    color: #FFFFFF;
+  }
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -52,6 +67,9 @@ body {
 .main-info{
     width: 1440px;
     height: 620px;
+}
+.main_info3{
+    margin-top: 30px;
 }
 .main-bird{
     margin-left: 165px;
@@ -143,6 +161,10 @@ label:hover {
     background: #376B44;
     cursor: pointer;
   }
+input[type="radio"]:checked+span {  
+    color: #FFFFFF;
+    background: #376B44;
+}
 .ag{
     width: 108px;
     height: 43px;
@@ -380,19 +402,30 @@ h2{
     color: #86928B;
 }
 
-
-.France, .Germany, .England, input[name="sco"] {
+.dis_lab{
+    display: flex;
+    gap: 32px;
+}
+.dis_hard{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 31px;
+}
+.marg_hard{
+    margin-top: 31px;
+}
+  .text1, .text2, .text3, input[name="sco"] {
     display: none;
   }
-   
-  #toggle-france:checked ~ .France {
+  
+  #pseudoBtn1:checked ~ .text1 {
     display: block;
   }
-   
-  #toggle-germany:checked ~ .Germany {
+  
+  #pseudoBtn2:checked ~ .text2 {
     display: block;
   }
-   
-  #toggle-england:checked ~ .England {
+  
+  #pseudoBtn3:checked ~ .text3 {
     display: block;
   }
