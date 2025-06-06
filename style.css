@@ -85,8 +85,8 @@ button:hover {
 .main-bird{
     margin-left: 165px;
 }
-h1 {
-    font-size: 60px;
+.main_p11{
+        font-size: 60px;
     margin: 0;
     line-height: 110%;
     font-weight: 400;
@@ -303,13 +303,16 @@ input[type="radio"]:checked+span {
     line-height: 150%;
 }
 .dedu_h2{
-    color: #F4F6F5;
-    margin: 0;
     gap: 20px;
     width: 421px;
     height: 80px;
-    line-height: 100%;
+}
+h1{
+    font-weight: 400;
     font-size: 40px;
+    color: #F4F6F5;
+    line-height: 100%;
+    margin: 0;
 }
 .box2{
     width: 540px;
