@@ -8,11 +8,6 @@
     font-weight: 400;
     src: url(fonts/Raleway/Raleway.ttf);
 }
-@media (min-width: 1440px){
-    .container {
-        max-width: 1110px;
-    }
-}
 :root{
     --family: "Raleway";
     --color-gr: #E1EDE6;
@@ -24,6 +19,9 @@
 }
 *{
     padding: 0;
+}
+.foot1{
+    background-color: var(--color-gr);
 }
 html {
     scroll-behavior: smooth;
@@ -61,25 +59,24 @@ button:hover {
     margin: 0 auto;
 }
 .heder-for{
+    width: 470px;
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 60px;
-    margin-right: 165px;
     font-family: var(--family);
-    font-size: 23px;
+    font-size: var(--size_20);
 }
 .heder_item{
+    width: 143px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 8px;
-    margin-left: 165px;
 }
 .heder_box{
+    width: 1110px;
     display: flex;
     justify-content: space-between;
-    width: 1440px;
     padding: 33px 0 32px 0;
     background-color: var(--color-gr);
 }
@@ -445,3 +442,62 @@ h2{
   #pseudoBtn3:checked ~ .text3 {
     display: block;
   }
+@media (min-width: 690px) and (max-width: 1440px) {
+    .container {
+        max-width: 690px;
+    }
+    .heder-for {
+        font-size: var(--size_18);
+        width: 446px;
+        margin-right: 0;
+    }
+    .heder_item{
+        margin-left: 0;
+        margin-right: 101px;
+    }
+    .heder_box{
+        max-width: 690px;
+    }
+    .main-bird{
+        margin-left: 0;
+    }
+    .bird11{
+        width: 330px;
+        height: 380px;
+    }
+    .main_p11 {
+        font-size: 40px;
+    }
+    .main_box{
+        width: 330px;
+        height: 380px;
+    }
+    .main_butt{
+        width: 210px;
+        margin-top: 40px;
+    }
+    .dis_hard{
+        width: 690px;
+    }
+    .info2-tx{
+        font-size: 30px;
+    }
+    .fr{
+        font-size: var(--size_20);
+    }
+    .gr1{
+        font-size: var(--size_20);
+    }
+    .ag{
+        font-size: var(--size_20);
+    }
+    .main_grid{
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(3, 33%);
+        grid-template-areas:
+        "content 👾"
+        "footer1 good"
+        "footer2 good1";
+    }
+
+}
