@@ -476,6 +476,12 @@ h2{
     .container {
         max-width: 1110px;
     }
+    .foot_dis1{
+        margin-left: auto;
+    }
+    .num{
+        width: 170px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1439px) {
@@ -505,7 +511,6 @@ h2{
     }
     .main_box{
         width: 330px;
-        height: 380px;
     }
     .main_butt{
         width: 210px;
@@ -809,6 +814,9 @@ h2{
     }
     .dis_mob{
         display: flex;
+    }
+    .text2{
+        margin-bottom: 110px;
     }
     .foot_img{
         margin-left: 64px;
